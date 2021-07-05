@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+fieldset{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+fieldset span {
+    display: inline-block;
+    width: 10%;
+}
+.width_80{
+    width: 80%;
+}
+.width_75{
+    width: 75%;
+}
+.width_35{
+    width: 35%;
+}
+.width_12{
+    width: 12%;
+}
+.width_20{
+    width: 20%;
+}
+
+.width_25{
+    width: 25%;
+}
+.width_15{
+    width: 15%;
+}
+.button_submit {
+    padding      : 5px;
+    font         : bold 1.5em sans-serif;
+    border       : 2px solid #333;
+    border-radius: 5px;
+    background   : none;
+    cursor       : pointer;
+    transform    : rotate(-1.5deg);
+    width: 150px;
+    height: 45px;
+    background: beige;
+  }
+  
+
+.button_submit:hover,
+.button_submit:focus {
+    outline     : none;
+    background  : #000;
+    color       : #FFF;
+  }
+
+.agreement_text{
+    width: 100%;
+    color: brown;
+    display: contents;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    fieldset span {
+        width: 100%;
+    }
+    .width_86{
+        width: 100%;
+    }
+    .width_80{
+        width: 100%;
+    }
+    .width_40{
+        width: 100%;
+    }
+    .width_16{
+        width: 100%;
+    }
+    .width_24{
+        width: 100%;
+    }
+
+    .width_32{
+        width: 100%;
+    }
+    .width_13{
+        width: 100%;
+    }
+}

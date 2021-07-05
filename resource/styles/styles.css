@@ -1,0 +1,47 @@
+html{
+    background-color: #eaf3ff;
+}
+#main_head_font{
+    font-size: 28px;
+    font-weight: 700;
+}
+#profile_image {
+    border-radius: 50%;
+}
+.emotional_imgs{
+    width: 450px; 
+    height: 450px;
+}
+.emotional_imgs:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.headersColor{
+    color: #982a34;;
+}
+.boldText {
+    font-weight: 700;
+    color:#98631e;
+}
+
+.font_italic{
+    font-style: italic;
+}
+
+.link_color{
+    color: #508e4d;;
+    text-decoration: none;
+}
+
+.link_color:visited{
+    color: #508e4d;;
+}
+
+.first_letter_decoration::first-letter {
+    font-size: 1.5em;
+}
+.link_color:hover {
+    text-decoration: underline;
+}
+.padding_15{
+    padding: 15px;
+}
