@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pet Gallery</title>
+    <script type="text/javascript" src="parsingJSON.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"> </script>
+    <link href="parsingJSON.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <p>Jsonplaceholder API test</p>
+    <form>
+        <label>UserId: <input type="text" id="userId"/></label>
+        <input type="submit" value="Fetch" />
+    </form>
+    <div class="flex-container">
+        <div>
+            <h3>Info</h3>
+            <dl id="info"></dl>
+        </div>
+        <div id="posts">
+            <h3>Posts</h3>
+        </div>
+        <div id="comments">
+            <h3>Comments</h3>
+        </div>
+    </div>
+</body>
+
+</html>
